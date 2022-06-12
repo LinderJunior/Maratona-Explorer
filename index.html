@@ -2,6 +2,7 @@
 <html>
 
   <head>
+    <meta charset="UTF-8"/>
     <script type="text/javascript" src="./index.js" defer=""></script>
     <link rel="stylesheet" href="./index.css">
   </head>
@@ -12,8 +13,13 @@
     <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="Imagem de uma bola de cristal">
     <h1> Vou revelar seu destino</h1>
     <p>Clique em fazer pergunta para que seu futuro seja reveldo</p>
-    <input type="text" placeholder="Digite sua pergunta"/>
-    <button> Fazer uma Pergunta</button>
+    <input id="inputPergunta" type="text" placeholder="Digite sua pergunta"/>
+    <button id="buttonPerguntar" onclick="fazerPergunta()"> Fazer uma Pergunta</button>
+
+      <h3 id="resposta">
+        <div> </div>
+        
+      </h3>
     </div>
   </body>
 </html>

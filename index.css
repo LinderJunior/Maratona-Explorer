@@ -1,5 +1,6 @@
 *{
 	margin: 0;
+	box-sizing: border-box;
   
   }
   
@@ -26,7 +27,7 @@
 	opacity: 0.7;
   }
   
-  input{
+  input, button{
 	display: block;
 	width: 100%;
   
@@ -45,14 +46,23 @@
 	color: white;
 	transition: filter .2s;
   
-	border-radius: 4px;
-	padding: 20px;
-	font-size: 20px;
-	display: block;
-	width: 111%;
   }
   
   button:hover{
 	filter: brightness(1.2);
 	cursor:pointer;
+  }
+
+  #resposta{
+	margin-top: 30px;
+
+	transition: opacity 1s;
+
+  }
+
+  #resposta div{
+	font-size: 16px;
+	font-weight: normal;
+	opacity: 0.9;
+	margin-bottom: 10px;
   }
