@@ -25,7 +25,7 @@ Descubra o que o destino tem para revelar 💻📱🚀
 
 ## :white_check_mark: Requisitos
 
-Antes de rodar :checkered_flag:, é necessário ter [Git](https://git-scm.com) e [VSCode](https://code.visualstudio.com) instalados.
+Antes de rodar a app :checkered_flag:, é necessário ter [Git](https://git-scm.com) e [VSCode](https://code.visualstudio.com) instalados.
 
 ## :checkered_flag: Rodar
 
